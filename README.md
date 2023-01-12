@@ -24,7 +24,7 @@
 
 <p>Por fim você terá acesso ao kanban, onde você poderá adicionar, editar e deletar tarefas<p>
 
-<img src="/img/primeira-imagem.png" />
+<img src="/img/segunda-imagem.png" />
 
 
 <p><strong>Tecnologias utilizada:</strong></p>
