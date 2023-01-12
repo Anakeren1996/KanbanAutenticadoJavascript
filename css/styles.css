@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&family=Josefin+Slab:ital,wght@0,300;0,400;0,600; 0,700 ; 1.300; 1.400; 1.600 & family = Muli: ital, wght @ 0,200; 0,300; 0,400; 0,500; 1,200; 1,300; 1.400 & display = swap ");
+
+:root {
+  --font-primary: "Baloo Da 2", serif;
+  --font-secundary: "Josefin Slab", serif;
+  --font-action: "Muli", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-action);
+}
+
+body {
+  background: linear-gradient(to left, #a0ffe6, #81f5ff);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.container .card {
+  padding: 30px;
+  border-radius: 4%;
+  box-shadow: 3px 3px 1px 0px #00000050;
+  width: 60vh;
+}
+
+.container .card #msgError {
+  text-align: center;
+  color: #ff0000;
+  background-color: #ffbbbb;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
+
+.container .card #msgSuccess {
+  text-align: center;
+  color: #00bb00;
+  background-color: #bbffbe;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
+
+.container .card h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.container .card .label-float {
+  position: relative;
+  padding-top: 13px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.container .card .label-float input {
+  width: 100%;
+  padding: 10px 10px;
+  display: inline-block;
+  border: 0;
+  border-bottom: 1px solid #a0ffe6;
+  background-color: transparent;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+
+.container .card .label-float input:focus {
+  border-bottom: 1px solid blue;
+}
+
+.container .card .label-float input:focus+label {
+  font-size: 13px;
+  margin-top: 0;
+  color: #89b5af;
+}
+
+.container .card .label-float label {
+  color: #222;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.3s ease-out;
+}
+
+.container .card .label-float .fa-eye {
+  color: #222;
+  position: absolute;
+  top: 13px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.container .card .login {
+  background-color: #99feff;
+  border: none;
+  color: blue;
+  padding: 7px;
+  font-weight: bolder;
+  font-size: 3vh;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease-out;
+}
+
+.container .card .cad {
+  margin-top: 6vh;
+  font-size: 2.5vh;
+}
+
+.container .card .cad .cadastre {
+  color: #222;
+  padding: 1vh;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .container .card {
+    width: 50vh;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
