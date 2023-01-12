@@ -1,4 +1,4 @@
-<h1>Kanban com autenticaçaõ de login</h1>
+<h1>Kanban com autenticação de login</h1>
 
 <div>
   <img src="/img/primeira-imagem.png" />
