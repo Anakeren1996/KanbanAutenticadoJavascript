@@ -1,7 +1,7 @@
 <h1>Kanban com autenticação de login</h1>
 
 <div>
-  <img src="/img/primeira-imagem.png" />
+  <img src="/img/segunda-imagem.png" />
 </div>
 
 <p><strong>O que me fez querer desenvolver esse projeto?</p>
@@ -16,13 +16,15 @@
 
 <p>Ao clicar em "OK" você será direcionado para a tela de login, caso já tenha feito seu cadastro poderá acessar tranquilamente</p>
 
-<img src="/img/segunda-imagem.png" />
+<img src="/img/terceira-imagem.png" />
 
 <p>Se ainda não tiver efetuado o cadastro, para poder logar você deverá clicar em "Cadastra-se"</p>
 
-<img src="/img/terceira-imagem.png" />
+<img src="/img/quarta-imagem.png" />
 
 <p>Por fim você terá acesso ao kanban, onde você poderá adicionar, editar e deletar tarefas<p>
+
+<img src="/img/primeira-imagem.png" />
 
 
 <p><strong>Tecnologias utilizada:</strong></p>
